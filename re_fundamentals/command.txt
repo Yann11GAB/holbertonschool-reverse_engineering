@@ -1,0 +1,1 @@
+readelf -SW target_binary

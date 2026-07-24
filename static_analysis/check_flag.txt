@@ -1,0 +1,163 @@
+
+target_binary_task3:     format de fichier elf64-x86-64
+
+
+Déassemblage de la section .init :
+
+Déassemblage de la section .plt :
+
+Déassemblage de la section .plt.got :
+
+Déassemblage de la section .plt.sec :
+
+Déassemblage de la section .text :
+
+00000000000011c9 <check_flag>:
+    11c9:	f3 0f 1e fa          	endbr64
+    11cd:	55                   	push   rbp
+    11ce:	48 89 e5             	mov    rbp,rsp
+    11d1:	48 81 ec 20 01 00 00 	sub    rsp,0x120
+    11d8:	48 89 bd e8 fe ff ff 	mov    QWORD PTR [rbp-0x118],rdi
+    11df:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+    11e6:	00 00 
+    11e8:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+    11ec:	31 c0                	xor    eax,eax
+    11ee:	c7 85 00 ff ff ff 80 	mov    DWORD PTR [rbp-0x100],0x80
+    11f5:	00 00 00 
+    11f8:	c7 85 04 ff ff ff e4 	mov    DWORD PTR [rbp-0xfc],0xe4
+    11ff:	00 00 00 
+    1202:	c7 85 08 ff ff ff 08 	mov    DWORD PTR [rbp-0xf8],0x8
+    1209:	00 00 00 
+    120c:	c7 85 0c ff ff ff 18 	mov    DWORD PTR [rbp-0xf4],0x18
+    1213:	00 00 00 
+    1216:	c7 85 10 ff ff ff 4a 	mov    DWORD PTR [rbp-0xf0],0x4a
+    121d:	00 00 00 
+    1220:	c7 85 14 ff ff ff 58 	mov    DWORD PTR [rbp-0xec],0x58
+    1227:	00 00 00 
+    122a:	c7 85 18 ff ff ff b8 	mov    DWORD PTR [rbp-0xe8],0xb8
+    1231:	00 00 00 
+    1234:	c7 85 1c ff ff ff e4 	mov    DWORD PTR [rbp-0xe4],0xe4
+    123b:	00 00 00 
+    123e:	c7 85 20 ff ff ff ac 	mov    DWORD PTR [rbp-0xe0],0xac
+    1245:	00 00 00 
+    1248:	c7 85 24 ff ff ff 34 	mov    DWORD PTR [rbp-0xdc],0x34
+    124f:	00 00 00 
+    1252:	c7 85 28 ff ff ff 58 	mov    DWORD PTR [rbp-0xd8],0x58
+    1259:	00 00 00 
+    125c:	c7 85 2c ff ff ff e4 	mov    DWORD PTR [rbp-0xd4],0xe4
+    1263:	00 00 00 
+    1266:	c7 85 30 ff ff ff 7e 	mov    DWORD PTR [rbp-0xd0],0x7e
+    126d:	00 00 00 
+    1270:	c7 85 34 ff ff ff bc 	mov    DWORD PTR [rbp-0xcc],0xbc
+    1277:	00 00 00 
+    127a:	c7 85 38 ff ff ff 9e 	mov    DWORD PTR [rbp-0xc8],0x9e
+    1281:	00 00 00 
+    1284:	c7 85 3c ff ff ff 8c 	mov    DWORD PTR [rbp-0xc4],0x8c
+    128b:	00 00 00 
+    128e:	c7 85 40 ff ff ff 7e 	mov    DWORD PTR [rbp-0xc0],0x7e
+    1295:	00 00 00 
+    1298:	c7 85 44 ff ff ff d0 	mov    DWORD PTR [rbp-0xbc],0xd0
+    129f:	00 00 00 
+    12a2:	c7 85 48 ff ff ff c0 	mov    DWORD PTR [rbp-0xb8],0xc0
+    12a9:	00 00 00 
+    12ac:	c7 85 4c ff ff ff 7c 	mov    DWORD PTR [rbp-0xb4],0x7c
+    12b3:	00 00 00 
+    12b6:	c7 85 50 ff ff ff ac 	mov    DWORD PTR [rbp-0xb0],0xac
+    12bd:	00 00 00 
+    12c0:	c7 85 54 ff ff ff f4 	mov    DWORD PTR [rbp-0xac],0xf4
+    12c7:	00 00 00 
+    12ca:	c7 85 58 ff ff ff 7e 	mov    DWORD PTR [rbp-0xa8],0x7e
+    12d1:	00 00 00 
+    12d4:	c7 85 5c ff ff ff 28 	mov    DWORD PTR [rbp-0xa4],0x28
+    12db:	00 00 00 
+    12de:	c7 85 60 ff ff ff 9e 	mov    DWORD PTR [rbp-0xa0],0x9e
+    12e5:	00 00 00 
+    12e8:	c7 85 64 ff ff ff 04 	mov    DWORD PTR [rbp-0x9c],0x4
+    12ef:	00 00 00 
+    12f2:	c7 85 68 ff ff ff 7e 	mov    DWORD PTR [rbp-0x98],0x7e
+    12f9:	00 00 00 
+    12fc:	c7 85 6c ff ff ff bc 	mov    DWORD PTR [rbp-0x94],0xbc
+    1303:	00 00 00 
+    1306:	c7 85 70 ff ff ff 9e 	mov    DWORD PTR [rbp-0x90],0x9e
+    130d:	00 00 00 
+    1310:	c7 85 74 ff ff ff 8c 	mov    DWORD PTR [rbp-0x8c],0x8c
+    1317:	00 00 00 
+    131a:	c7 85 78 ff ff ff 7e 	mov    DWORD PTR [rbp-0x88],0x7e
+    1321:	00 00 00 
+    1324:	c7 85 7c ff ff ff 5c 	mov    DWORD PTR [rbp-0x84],0x5c
+    132b:	00 00 00 
+    132e:	c7 45 80 14 00 00 00 	mov    DWORD PTR [rbp-0x80],0x14
+    1335:	c7 45 84 4c 00 00 00 	mov    DWORD PTR [rbp-0x7c],0x4c
+    133c:	c7 45 88 7e 00 00 00 	mov    DWORD PTR [rbp-0x78],0x7e
+    1343:	c7 45 8c 5c 00 00 00 	mov    DWORD PTR [rbp-0x74],0x5c
+    134a:	c7 45 90 7e 00 00 00 	mov    DWORD PTR [rbp-0x70],0x7e
+    1351:	c7 45 94 6c 00 00 00 	mov    DWORD PTR [rbp-0x6c],0x6c
+    1358:	c7 45 98 02 00 00 00 	mov    DWORD PTR [rbp-0x68],0x2
+    135f:	c7 45 9c 14 00 00 00 	mov    DWORD PTR [rbp-0x64],0x14
+    1366:	c7 45 a0 b8 00 00 00 	mov    DWORD PTR [rbp-0x60],0xb8
+    136d:	c7 45 a4 4c 00 00 00 	mov    DWORD PTR [rbp-0x5c],0x4c
+    1374:	c7 45 a8 14 00 00 00 	mov    DWORD PTR [rbp-0x58],0x14
+    137b:	c7 45 ac a4 00 00 00 	mov    DWORD PTR [rbp-0x54],0xa4
+    1382:	c7 45 b0 9e 00 00 00 	mov    DWORD PTR [rbp-0x50],0x9e
+    1389:	c7 45 b4 08 00 00 00 	mov    DWORD PTR [rbp-0x4c],0x8
+    1390:	c7 45 b8 7e 00 00 00 	mov    DWORD PTR [rbp-0x48],0x7e
+    1397:	c7 45 bc e4 00 00 00 	mov    DWORD PTR [rbp-0x44],0xe4
+    139e:	c7 45 c0 f4 00 00 00 	mov    DWORD PTR [rbp-0x40],0xf4
+    13a5:	c7 45 c4 08 00 00 00 	mov    DWORD PTR [rbp-0x3c],0x8
+    13ac:	c7 45 c8 6a 00 00 00 	mov    DWORD PTR [rbp-0x38],0x6a
+    13b3:	c7 45 cc 14 00 00 00 	mov    DWORD PTR [rbp-0x34],0x14
+    13ba:	c7 45 d0 a6 00 00 00 	mov    DWORD PTR [rbp-0x30],0xa6
+    13c1:	c7 45 d4 5c 00 00 00 	mov    DWORD PTR [rbp-0x2c],0x5c
+    13c8:	c7 45 d8 b8 00 00 00 	mov    DWORD PTR [rbp-0x28],0xb8
+    13cf:	c7 45 dc 7c 00 00 00 	mov    DWORD PTR [rbp-0x24],0x7c
+    13d6:	c7 45 e0 9e 00 00 00 	mov    DWORD PTR [rbp-0x20],0x9e
+    13dd:	c7 45 e4 28 00 00 00 	mov    DWORD PTR [rbp-0x1c],0x28
+    13e4:	c7 45 e8 3e 00 00 00 	mov    DWORD PTR [rbp-0x18],0x3e
+    13eb:	c7 45 ec ac 00 00 00 	mov    DWORD PTR [rbp-0x14],0xac
+    13f2:	c7 85 f8 fe ff ff 00 	mov    DWORD PTR [rbp-0x108],0x0
+    13f9:	00 00 00 
+    13fc:	e9 80 00 00 00       	jmp    1481 <check_flag+0x2b8>
+    1401:	8b 85 f8 fe ff ff    	mov    eax,DWORD PTR [rbp-0x108]
+    1407:	48 63 d0             	movsxd rdx,eax
+    140a:	48 8b 85 e8 fe ff ff 	mov    rax,QWORD PTR [rbp-0x118]
+    1411:	48 01 d0             	add    rax,rdx
+    1414:	0f b6 00             	movzx  eax,BYTE PTR [rax]
+    1417:	0f be c0             	movsx  eax,al
+    141a:	8b 95 f8 fe ff ff    	mov    edx,DWORD PTR [rbp-0x108]
+    1420:	83 e2 01             	and    edx,0x1
+    1423:	85 d2                	test   edx,edx
+    1425:	75 07                	jne    142e <check_flag+0x265>
+    1427:	ba d2 ff ff ff       	mov    edx,0xffffffd2
+    142c:	eb 05                	jmp    1433 <check_flag+0x26a>
+    142e:	ba 3c 01 00 00       	mov    edx,0x13c
+    1433:	0f af c2             	imul   eax,edx
+    1436:	8b 95 f8 fe ff ff    	mov    edx,DWORD PTR [rbp-0x108]
+    143c:	83 e2 01             	and    edx,0x1
+    143f:	85 d2                	test   edx,edx
+    1441:	75 07                	jne    144a <check_flag+0x281>
+    1443:	ba 90 fe ff ff       	mov    edx,0xfffffe90
+    1448:	eb 05                	jmp    144f <check_flag+0x286>
+    144a:	ba e0 09 00 00       	mov    edx,0x9e0
+    144f:	31 d0                	xor    eax,edx
+    1451:	25 ff 00 00 00       	and    eax,0xff
+    1456:	89 85 fc fe ff ff    	mov    DWORD PTR [rbp-0x104],eax
+    145c:	8b 85 f8 fe ff ff    	mov    eax,DWORD PTR [rbp-0x108]
+    1462:	48 98                	cdqe
+    1464:	8b 84 85 00 ff ff ff 	mov    eax,DWORD PTR [rbp+rax*4-0x100]
+    146b:	39 85 fc fe ff ff    	cmp    DWORD PTR [rbp-0x104],eax
+    1471:	74 07                	je     147a <check_flag+0x2b1>
+    1473:	b8 00 00 00 00       	mov    eax,0x0
+    1478:	eb 19                	jmp    1493 <check_flag+0x2ca>
+    147a:	83 85 f8 fe ff ff 01 	add    DWORD PTR [rbp-0x108],0x1
+    1481:	83 bd f8 fe ff ff 3b 	cmp    DWORD PTR [rbp-0x108],0x3b
+    1488:	0f 8e 73 ff ff ff    	jle    1401 <check_flag+0x238>
+    148e:	b8 01 00 00 00       	mov    eax,0x1
+    1493:	48 8b 4d f8          	mov    rcx,QWORD PTR [rbp-0x8]
+    1497:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
+    149e:	00 00 
+    14a0:	74 05                	je     14a7 <check_flag+0x2de>
+    14a2:	e8 09 fc ff ff       	call   10b0 <__stack_chk_fail@plt>
+    14a7:	c9                   	leave
+    14a8:	c3                   	ret
+
+Déassemblage de la section .fini :
